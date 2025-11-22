@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bagan Keuangan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 30px;
+    }
+    h2 {
+      text-align: center;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background-color: #fff;
+    }
+    th, td {
+      border: 1px solid #aaa;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #e0e0e0;
+    }
+    .col-title {
+      background-color: #f0f0f0;
+      font-weight: bold;
+    }
+    .income {
+      background-color: #e8f8e8;
+    }
+    .expense {
+      background-color: #fceaea;
+    }
+    .total {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h2>Bagan Keuangan</h2>
+  <table>
+    <tr>
+      <th colspan="2">Pemasukan</th>
+      <th colspan="2">Pengeluaran</th>
+    </tr>
+    <tr class="col-title">
+      <td>Keterangan</td>
+      <td>Jumlah (Rp)</td>
+      <td>Keterangan</td>
+      <td>Jumlah (Rp)</td>
+    </tr>
+    <tr>
+      <td class="income">Penghasilan</td>
+      <td class="income">156.000.000</td>
+      <td class="expense">--</td>
+      <td class="expense">--</td>
+    </tr>
+    <tr>
+      <td class="income">Investasi Asing</td>
+      <td class="income">200.000.000</td>
+      <td class="expense">Peralatan</td>
+      <td class="expense">43.000.000</td>
+    </tr>
+    <tr>
+      <td class="income">Prive Owner</td>
+      <td class="income">432.000.000</td>
+      <td class="expense">Jalan-jalan</td>
+      <td class="expense">23.000.000</td>
+    </tr>
+    <tr class="total">
+      <th colspan="2">Total Pemasukan</th>
+      <th colspan="2">Total Pengeluaran</th>
+    </tr>
+    <tr class="total">
+      <td colspan="2">788.000.000</td>
+      <td colspan="2">66.000.000</td>
+    </tr>
+  </table>
+</body>
+</html>
